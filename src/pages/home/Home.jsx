@@ -8,7 +8,7 @@ class Home extends React.Component {
     render() {
         console.log("home-data::::::::", this.props.userData);
         return (
-            <div class="homepage"> Home page 123 <button onClick={() => this.props.updateUser()}>update</button></div>
+            <h1 class="homepage"> Home page 123 <button onClick={() => this.props.updateUser()}>update</button></h1>
         )
     }
 }
